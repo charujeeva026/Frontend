@@ -18,7 +18,7 @@ body{
 .site-header {
   background: #0c2b63;
   color: #fff;
-  padding: 20px;
+  padding: 3¬0px;
 }
 /* .header-inner { max-width: var(--max-width); margin: 0 auto; display:flex; align-items:center; } */
 .brand a { color: white; text-decoration: none; font-weight: 700; font-size: 1.15rem; }
@@ -83,10 +83,10 @@ body{
 
 
 .site-footer {
-  margin-top: 44px;
+  margin-top: 94px;
   background: #0c2b63;
   color: white;
-  padding: 16px ;
+  padding: 30px ;
   text-align: center;
 }
 

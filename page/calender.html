@@ -21,6 +21,7 @@
         <li><a href="../page/dash.html">Dashboard</a></li>
         <li><a href="../page/calender.html">Vaccine Calendar</a></li>
         <li><a href="../page/guideness.html">Health Guidelines</a></li>
+         <li><a href="../page/vaccine.html">Add vaccine</a></li>
         <li><a href="../page/profile.html">Profile</a></li>
       </ul>
     </nav>
@@ -38,20 +39,32 @@
       <img src="../Assets/pregnant-woman-counting-down-delivery-date.jpg" 
            alt="Calendar Image" class="calendar-image">
 
-      <div class="vaccine-details">
-        <h3>Vaccine Details</h3>
-        <p>Vaccine Name</p>
-        <p>Date</p>
-        <p>Notes</p>
-        <button class="btn">Set Reminder</button>
-      </div>
+         <div class="vaccine-details">
+  <h3>Vaccine Details</h3>
+
+  <form class="vaccine-form">
+    <label for="vaccineName">Vaccine Name</label>
+    <input type="text" id="vaccineName" placeholder="Enter vaccine name">
+
+    <label for="vaccineDate">Date</label>
+    <input type="date" id="vaccineDate">
+
+    <label for="notes">Notes</label>
+    <textarea id="notes" placeholder="Enter notes"></textarea>
+    <a href="/page/vaccine.html">
+    <button type="button" class="btn">Set Reminder</button>
+</a>
+
+  </form>
+</div>
+
     </main>
   </div>
 
   <footer>
     <div class="footer-links">
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="../page/about.html">About</a>
+      <a href="../page/contact.html">Contact</a>
     </div>
     <p>@2025 VacciCare</p>
   </footer>
